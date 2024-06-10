@@ -2,8 +2,12 @@
 
 int main() {
 
-    std::cout << "I like pizza!" << '\n';
-    std::cout << "It's really good!"<< '\n';
+    int x; //declaration
+    x = 5; //assignment variable
+    // int x = 5; same as above
+
+    std::cout << x;
+
     return 0;
 }
 

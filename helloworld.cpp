@@ -2,11 +2,13 @@
 
 int main() {
 
-    int x; //declaration
-    x = 5; //assignment variable
-    // int x = 5; same as above
+    int x = 5;
+    int y = 6;
+    int sum = x + y;
 
-    std::cout << x;
+    std::cout << x << '\n';
+    std::cout << y << '\n';
+    std::cout << sum << '\n';
 
     return 0;
 }
